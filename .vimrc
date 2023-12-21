@@ -8,16 +8,16 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'davidhalter/jedi-vim'
-    Plugin 'ycm-core/YouCompleteMe'
+    "Plugin 'ycm-core/YouCompleteMe'
 	Plugin 'preservim/nerdtree'
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
     Plugin 'cohama/lexima.vim'
 	Plugin 'frazrepo/vim-rainbow'
-	Plugin 'mileszs/ack.vim'
+	"Plugin 'mileszs/ack.vim'
     Plugin 'ekalinin/Dockerfile.vim'
-    Plugin 'junegunn/fzf'
-    Plugin 'junegunn/fzf.vim'
+    "Plugin 'junegunn/fzf'
+    "Plugin 'junegunn/fzf.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 "
